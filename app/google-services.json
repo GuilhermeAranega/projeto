@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "349651603548",
+    "firebase_url": "https://bruno-2bim-default-rtdb.firebaseio.com",
+    "project_id": "bruno-2bim",
+    "storage_bucket": "bruno-2bim.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349651603548:android:9b557f135a985238151699",
+        "android_client_info": {
+          "package_name": "com.example.probetobruno2bimnovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349651603548-p8v1glf18kh0onitv33qu3dn6uek6gl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU_Fyvfd1fHmECm5NmMcl87chS_tYTewo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349651603548-p8v1glf18kh0onitv33qu3dn6uek6gl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349651603548:android:336eec984a6e4b07151699",
+        "android_client_info": {
+          "package_name": "com.example.projetobruno2bim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349651603548-p8v1glf18kh0onitv33qu3dn6uek6gl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU_Fyvfd1fHmECm5NmMcl87chS_tYTewo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349651603548-p8v1glf18kh0onitv33qu3dn6uek6gl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
