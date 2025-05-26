@@ -158,7 +158,7 @@ class HomeActivity : AppCompatActivity() {
             }
 
             override fun onResponse(call: Call, response: Response) {
-                val resposta = response.body?.string() ?: "Sem resposta"
+                var resposta = response.body?.string() ?: "Sem resposta"
                 try {
                     val jsonResposta = JSONObject(resposta)
                     if (!jsonResposta.has("candidates")) {
