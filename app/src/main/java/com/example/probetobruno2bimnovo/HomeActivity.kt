@@ -42,7 +42,6 @@ class HomeActivity : AppCompatActivity() {
         val txtResposta = findViewById<TextView>(R.id.txtResposta)
         val eTxtpalavras = findViewById<EditText>(R.id.eTxtPalavras)
         var palavras = ""
-        val imageView = findViewById<ImageView>(R.id.viewImage)
 
         btnSair.setOnClickListener {
             LogOut()
@@ -52,9 +51,9 @@ class HomeActivity : AppCompatActivity() {
             palavras = eTxtpalavras.text.toString().trim()
             Toast.makeText(this, "Gerando poema com as palavras $palavras...", Toast.LENGTH_SHORT).show()
             gerarPoema("draminha", palavras) {
-                    resposta -> runOnUiThread {
-                txtResposta.text = resposta
-            }
+                resposta -> runOnUiThread {
+                    txtResposta.text = resposta
+                }
             }
 
         }
